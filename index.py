@@ -17,3 +17,7 @@ with open(args.output, 'w') as csvfile:
       filewriter.writerow([timestamp, float(location['latitudeE7'])/math.pow(10, 7), float(location['longitudeE7'])/math.pow(10, 7)])
 
 print('Done! Wrote ' + str(len(locations)) + ' points.')
+
+
+
+'new coder here. Can someone explain what I need to change in the code to get 7 years of files that I exported from google takeout to a csv?'
